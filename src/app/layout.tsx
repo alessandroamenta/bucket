@@ -1,5 +1,6 @@
 import './globals.css'
 import { Reenie_Beanie } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 
 const reenieBeanie = Reenie_Beanie({
   weight: '400',
@@ -18,7 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={reenieBeanie.className}>{children}</body>
+      <body className={reenieBeanie.className}>
+        {children}
+        <Analytics />
+        </body>
     </html>
   )
 }
