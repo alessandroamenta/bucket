@@ -12,4 +12,4 @@ It's super simple:
 3. Run `npm run dev`
 4. Open `http://localhost:3000`
 
-Made with Next.js and lots of ☕
+Made with Next.js and lots of ❤️
