@@ -237,7 +237,7 @@ h1 {
     column-count: 2;
     column-gap: 0.5rem;
     padding: 0 2rem;
-    margin-bottom: 36rem;
+    margin-bottom: 4rem;
   }
 
   .bucket-item {
@@ -255,6 +255,11 @@ h1 {
   .lottie-wrapper {
     margin-bottom: -3rem;
     padding-top: 0.75rem;
+  }
+
+  .footer {
+    margin-bottom: 32rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -309,13 +314,18 @@ h1 {
     margin-bottom: -2rem;
     padding-top: 0.5rem;
   }
+
+  .footer {
+    padding-bottom: 8rem;
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 480px) {
   .bucket-list {
     column-count: 1;
     padding: 0 1.5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 4rem;
   }
 
   h1 {
@@ -339,4 +349,18 @@ h1 {
     margin-bottom: -3rem;
     padding-top: 0.25rem;
   }
+
+  .footer {
+    margin-bottom: 10rem;
+    font-size: 1.4rem;
+  }
+}
+
+.footer {
+  font-family: var(--font-caveat);
+  text-align: center;
+  padding: 1rem;
+  color: #4a4a4a;
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
 }
