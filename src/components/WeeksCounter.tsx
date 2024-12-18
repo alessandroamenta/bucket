@@ -36,7 +36,7 @@ export function WeeksCounter() {
   return (
     <div className="countdown-container">
       <h2 className="weeks-count mb-0">{weeksData.weeksLeft} weeks left</h2>
-      <p className="weeks-explanation mt-0 mb-6">(assuming i live until 80 - that&apos;s 4160 weeks)</p>
+      <p className="weeks-explanation mt-0 mb-6">(assuming i live till 80 - that&apos;s 4160 weeks)</p>
     </div>
   )
 } 

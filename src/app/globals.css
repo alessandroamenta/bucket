@@ -16,9 +16,11 @@ body {
   color: var(--ink-color);
   padding: 1rem;
   font-family: "Courier New", monospace;
-  overflow-y: auto;
   overflow-x: hidden;
-  max-width: 100vw;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 main {
@@ -39,7 +41,7 @@ h1 {
 }
 
 .bucket-item {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: var(--ink-color);
   padding: 0.4rem 0;
   line-height: 1.4;
@@ -117,7 +119,7 @@ h1 {
 }
 
 .weeks-explanation {
-  font-size: clamp(0.9rem, 2.5vw, 1.6rem);
+  font-size: clamp(0.9rem, 2.5vw, 1.7rem);
   color: #666;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
   opacity: 0.9;
@@ -240,8 +242,12 @@ h1 {
     margin-bottom: 4rem;
   }
 
+  .weeks-explanation {
+    font-size: 1.4rem;
+  }
+
   .bucket-item {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-right: 0.5rem;
     max-width: 220px;
   }
@@ -322,37 +328,61 @@ h1 {
 }
 
 @media (max-width: 480px) {
+  body {
+    padding: 1.5rem;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .bucket-list {
     column-count: 1;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     margin-bottom: 4rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .weeks-explanation {
+    font-size: 1.4rem;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 0.5rem;
+    width: 100%;
   }
+
   .bucket-item {
-    font-size: 1.3rem;
-    padding-right: 0.5rem;
+    font-size: 1.5rem;
+    padding-right: 0;
     line-height: 1.4;
-    max-width: 280px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .lottie-container {
-    width: 200px;
-    height: 200px;
-    transform: scale(0.7);
+  .intro {
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
 
-  .lottie-wrapper {
-    margin-bottom: -3rem;
-    padding-top: 0.25rem;
+  .weeks-count {
+    font-size: 1.8rem;
   }
+  
 
   .footer {
     margin-bottom: 10rem;
     font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+
+  .lottie-wrapper {
+    width: 100%;
+    margin-bottom: -2rem;
+    overflow: hidden;
   }
 }
 
@@ -361,6 +391,6 @@ h1 {
   text-align: center;
   padding: 1rem;
   color: #4a4a4a;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-bottom: 1rem;
 }
