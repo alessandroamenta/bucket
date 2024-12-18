@@ -353,7 +353,7 @@ h1 {
   }
 
   .bucket-item {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-right: 0;
     line-height: 1.4;
     width: 100%;
@@ -389,8 +389,6 @@ h1 {
 .footer {
   font-family: var(--font-caveat);
   text-align: center;
-  padding: 1rem;
   color: #4a4a4a;
   font-size: 1.6rem;
-  padding-bottom: 1rem;
 }
