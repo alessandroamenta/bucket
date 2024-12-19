@@ -8,9 +8,9 @@ export default function Home() {
       <div className="w-full max-w-4xl mx-auto px-2 sm:px-4">
         <LottieAnimation />
         <div className="text-center space-y-0">
-          <p className="intro mb-0">hi, i&apos;m ale, and these are</p>
+          <p className="intro mb-0">hi, i&apos;m ale, and these are the</p>
           <h1 className="font-light mt-0 mb-0 leading-tight">
-            the things i wanna do before i die
+            things i wanna do before i die
           </h1>
           <WeeksCounter />
         </div>
