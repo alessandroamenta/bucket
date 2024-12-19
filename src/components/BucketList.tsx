@@ -63,7 +63,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 54, text: "sleep in a glass igloo in lapland", completed: false },
   { id: 55, text: "eat lab grown meat", completed: false },
   { id: 56, text: "ride in a self-driving car", completed: false },
-  { id: 57, text: "take cooking classes from a Michelin star chef", completed: false },
+  { id: 57, text: "take a masterclass with a renowned chef", completed: false },
   { id: 58, text: "climb a 5000m mountain", completed: false },
   { id: 59, text: "do an ironman", completed: false },
   { id: 60, text: "learn to handstand", completed: false },
