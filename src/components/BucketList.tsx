@@ -58,7 +58,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 49, text: "go horse riding", completed: false },
   { id: 50, text: "travel with a stranger", completed: true },
   { id: 51, text: "visit japan", completed: true },
-  { id: 52, text: "visit during cherry blossom season", completed: false },
+  { id: 52, text: "visit japan during cherry blossom season", completed: false },
   { id: 53, text: "make love in the ocean at night", completed: false },
   { id: 54, text: "sleep in a glass igloo in lapland", completed: false },
   { id: 55, text: "eat lab grown meat", completed: false },
@@ -78,6 +78,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 69, text: "fall in love", completed: true },
   { id: 70, text: "have grandma visit me abroad", completed: false },
   { id: 71, text: "get a doggo (or 12 of them)", completed: false },
+  { id: 72, text: "see Jungle and Still Woozy live with my best friend", completed: false }
 ];
 
 export default function BucketList() {
