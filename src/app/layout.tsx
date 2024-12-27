@@ -18,10 +18,9 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://alesbucket.com/sampleimg.png",
+        url: "/api/og",
         width: 1200,
         height: 630,
-        alt: "ale's bucket list",
       },
     ],
   },
@@ -29,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "ale's bucket list",
     description: "things i wanna do before i die",
-    images: ["https://alesbucket.com/sampleimg.png"],
+    images: ["/api/og"],
     creator: "@ale",
   },
   robots: {
