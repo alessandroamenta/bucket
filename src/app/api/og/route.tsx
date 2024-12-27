@@ -11,11 +11,20 @@ export async function GET() {
             height: "100%",
             width: "100%",
             display: "flex",
-            backgroundImage: 'url("https://alesbucket.com/sampleimg.png")',
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            alignItems: "center",
+            justifyContent: "center",
           }}
-        />
+        >
+          <img
+            src="https://alesbucket.com/sampleimg.png"
+            alt="ale's bucket list"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
+        </div>
       ),
       {
         width: 1200,
