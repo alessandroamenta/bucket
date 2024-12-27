@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic'; // Ensure the route is dynamic
 export async function GET() {
   const today = new Date();
   const diffTime = today.getTime() - BIRTH_DATE.getTime();
-  const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
+  const diffWeeks = Math.round(diffTime / (1000 * 60 * 60 * 24 * 7)); // Using Math.round instead of Math.floor
   const weeksLeft = TOTAL_WEEKS - diffWeeks;
   
   return NextResponse.json({
@@ -16,4 +16,4 @@ export async function GET() {
     totalLived: diffWeeks,
     lastUpdated: today.toISOString()
   });
-} 
+}
