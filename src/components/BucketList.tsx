@@ -57,7 +57,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 48, text: "give blood", completed: false },
   { id: 49, text: "learn to play the guitar", completed: false },
   { id: 50, text: "own a restaurant/cafe by 45", completed: false },
-  { id: 51, text: "go horse riding", completed: false },
+  { id: 51, text: "go horse riding", completed: true },
   { id: 52, text: "travel with a stranger", completed: true },
   { id: 53, text: "make love in the ocean at night", completed: false },
   { id: 54, text: "sleep in a glass igloo in lapland", completed: false },
