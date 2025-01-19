@@ -86,7 +86,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 61, text: "be vegan for 6m", completed: true },
   { id: 62, text: "read 52 books in a year", completed: false },
   { id: 63, text: "backpack with my best friend", completed: false },
-  { id: 64, text: "take mom to venice", completed: false },
+  { id: 64, text: "take mom to venice", completed: true },
   { id: 65, text: "fall in love", completed: true },
   { id: 66, text: "have grandma visit me abroad", completed: false },
   { id: 67, text: "get a doggo (or 12 of them)", completed: false },
