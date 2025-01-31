@@ -99,6 +99,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 70, text: "go to rome with dad", completed: true },
   { id: 71, text: "get a tiny tattoo with my best bro", completed: false },
   { id: 72, text: "get a tiny paper boat tattoo", completed: false },
+  { id: 73, text: "run for 100 days in a row", completed: false },
 ];
 
 export default function BucketList() {
