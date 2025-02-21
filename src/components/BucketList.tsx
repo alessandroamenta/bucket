@@ -43,7 +43,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 22, text: "run half a marathon", completed: true },
   { id: 23, text: "run a marathon", completed: false },
   { id: 24, text: "learn french", completed: false },
-  { id: 25, text: "buy & learn to use a DSLR camera", completed: false },
+  { id: 25, text: "buy & learn to use a DSLR camera", completed: true },
   {
     id: 26,
     text: "try out living in australia for a few months",
@@ -78,7 +78,7 @@ const bucketListItems: BucketListItem[] = [
   { id: 53, text: "make love in the ocean at night", completed: false },
   { id: 54, text: "sleep in a glass igloo in lapland", completed: false },
   { id: 55, text: "eat lab grown meat", completed: false },
-  { id: 56, text: "ride in a self-driving car", completed: false },
+  { id: 56, text: "ride in a self-driving car", completed: true },
   { id: 57, text: "take a masterclass with a renowned chef", completed: false },
   { id: 58, text: "climb a 5000m mountain", completed: false },
   { id: 59, text: "learn to handstand", completed: false },
